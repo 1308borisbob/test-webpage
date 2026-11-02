@@ -1,0 +1,35 @@
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+  background-color: #e1eaeefe;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto; /*чтобы разместить в середине страницы - auto*/
+  background-color: #aae4dee9;
+  padding: 0 20px 20px 20px;
+  border: 3px solid black;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 2px 2px black;  
+  color: #969ea1fe;
+}
+
+p,
+li {
+  line-height: 2; 
+  letter-spacing: 1px;
+}
+
+img {
+  display: block; /*img по умолчанию строчный элемент*/ 
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+}
