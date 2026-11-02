@@ -1,3 +1,6 @@
+const heading = document.querySelector('h1');
+heading.textContent = 'This is test page';
+
 const image = document.querySelector('#logo');
 image.addEventListener('click', () => {
     const logo = image.getAttribute('alt');
@@ -10,7 +13,6 @@ image.addEventListener('click', () => {
     }
 });
 
-const heading = document.querySelector('h1');
 const changeUserButton = document.querySelector('#change-user');
 function setUserName() {
   const userName = prompt("Please enter your name");
